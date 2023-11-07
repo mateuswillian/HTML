@@ -1,0 +1,7 @@
+*{ margin: 0px; padding: 0px; }
+
+body{ background-image: url(./fundo.png); }
+
+.espaço{ width: 800px; height: 10px; }
+
+a{ text-decoration: none; }
