@@ -4,4 +4,13 @@ body{ background-image: url(./fundo.png); }
 
 .espaço{ width: 800px; height: 10px; }
 
+.link{ padding: 10px; }
+
 a{ text-decoration: none; }
+
+p{ background-color: aqua; width: 450px; height: 320px; padding: 30px;}
+
+h1{ text-align: center; }
+
+#rodape{ padding: 10px; }
+
