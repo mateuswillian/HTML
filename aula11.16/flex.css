@@ -45,4 +45,5 @@
     display: flex;
     flex-direction: column;
     width: 370px;
+    padding: 10px;
 }
