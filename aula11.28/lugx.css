@@ -20,24 +20,3 @@ ul {
     grid-template-columns: 100px 100px 0.7fr 100px 100px;
     
 }
-
-header {
-     background-color: yellow; 
-    }
-
-section { 
-    background-color: violet;
- }
-
-main { 
-    background-color: aquamarine;
-    border: 2px solid black; 
-}
-
-article { 
-    background-color: brown;
- }
-
-footer { 
-    background-color: chartreuse;
- }
