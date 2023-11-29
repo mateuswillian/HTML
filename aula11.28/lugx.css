@@ -72,6 +72,7 @@ header {
 
 .header-img {
     grid-area: headerImg;
+    border-radius: 25px;
 }
 
 .header-form {
@@ -159,6 +160,45 @@ header {
     display: grid;
     grid-template-columns: repeat(6, 14.5%);
     justify-content: space-around;
+}
+
+.container-categorias {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas:
+        'categoriasH6 categoriasA'
+        'categoriasH2 categoriasA'
+        'categoriasSection categoriasSection'
+     ;
+}
+
+.categorias-h6 {
+    grid-area: categoriasH6;
+}
+.categorias-h2 {
+    grid-area: categoriasH2;
+}
+.categorias-a {
+    grid-area: categoriasA;
+}
+.categorias-section {
+    grid-area: categoriasSection;
+    display: grid;
+    grid-template-columns: repeat(5, 18%);
+    justify-content: space-around;
+}
+
+.container-h4 {
+    background-color: #0071f8;
+    border-radius: 80px 80px 0px 0px;
+    padding: 15px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias-img {
+    border-radius: 10px;
 }
 
 main {
