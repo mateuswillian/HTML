@@ -129,7 +129,7 @@ header {
 .populares-section {
     grid-area: popularesSection;
     display: grid;
-    grid-template-columns: repeat(4,20%);
+    grid-template-columns: repeat(4,22.5%);
     justify-content: space-around;
 }
 .container-topgames {
@@ -157,7 +157,7 @@ header {
 .topgames-section {
     grid-area: topgamesSection;
     display: grid;
-    grid-template-columns: repeat(6, 15%);
+    grid-template-columns: repeat(6, 14.5%);
     justify-content: space-around;
 }
 
