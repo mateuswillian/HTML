@@ -12,14 +12,17 @@
 
 .container { 
     display: grid; 
-    grid-template-rows: 100vh 150px repeat(3, 450px) 100vh 100px; 
+    grid-template-rows: 700px 250px repeat(3, 450px) 100vh 100px; 
     font-family: 'poppins', sans-serif;
 }
 
 .div-bg {
     background-image: url(./image/banner-bg.jpg );
+    border-radius: 0px 0px 50px 50px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-rows: 150px 1fr;
 }
 
 nav {
@@ -35,6 +38,7 @@ ul {
     display: grid;
     grid-template-columns: 100px 100px 1fr 100px 100px;
     list-style: none;
+    place-items: center;
     
 }
 
@@ -80,7 +84,7 @@ header {
     grid-template-columns: repeat(4, 250px);  
     justify-content: space-around; 
 }
-.section-a {
+.container-section a {
     box-shadow: 0px 0px 15px #d9d9d9;
     border-radius: 25px;
     text-align: center;
@@ -92,13 +96,83 @@ header {
 .section-div {
     display: inline-block;
     padding: 7.5%;
+    line-height: 90px;
     background-color: #0071f8;
-    border-radius: 100%;
+    border-radius: 50%;
     width: 90px;
     height: 90px;
+    text-align: center;
     margin-bottom: 25px;
 }
+
+.container-populares {
+    display: grid;
+    grid-template-areas:
+        'popularesH6 popularesA'
+        'popularesH2 popularesA'
+        'popularesSection popularesSection'
+    ;
+}
+
+.populares-h6 {
+    grid-area: popularesH6;
+}
+
+.populares-h2 {
+    grid-area: popularesH2;
+}
+
+.populares-a {
+    grid-area: popularesA;
+}
+
+.populares-section {
+    grid-area: popularesSection;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-around;
+}
+.container-topgames {
+    background-color: #d9d9d9;
+    border-radius: 0px 0px 15px 15px;
+    display: grid;
+    grid-template-areas: 
+       'topgamesH6 topgamesA'
+       'topgamesH2 topgamesA'
+       'topgamesSection topgamesSection'
+    ;
+}
+
+.topgames-h6 {
+    grid-area: topgamesH6;
+}
+.topgames-h2{
+    grid-area: topgamesH2;
+} 
+
+.topgames-a {
+    grid-area: topgamesA;
+}
+
+.topgames-section {
+    grid-area: topgamesSection;
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    justify-content: space-around;
+}
+
 main {
     background-color: aquamarine;
     border: 2px solid black;
+}
+
+footer {
+    background-color: #0071f8;
+    border-radius: 98px 98px 0px 0px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
 }
