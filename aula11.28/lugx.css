@@ -1,22 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap');
+
 * {
-     margin: 0px; padding: 0px; box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     }
+ li a { 
+        text-decoration: none !important;
+        color: #ffffff;
      }
 
 .container { 
     display: grid; 
-    grid-template-rows: 100px 100vh 150px repeat(3, 450px) 100vh 100px; 
+    grid-template-rows: 100vh 150px repeat(3, 450px) 100vh 100px; 
+    font-family: 'poppins', sans-serif;
+}
+
+.div-bg {
+    background-image: url(./image/banner-bg.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
-     background-color: aqua;
+
      display: grid;
      grid-template-columns: repeat(2, 1fr);
      justify-content: space-between;
      align-items: center;
-     }
+     padding-left: 60px;
+ }
 
 ul { 
     display: grid;
-    grid-template-columns: 100px 100px 0.7fr 100px 100px;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
+    list-style: none;
     
+}
+
+header {
+    color: #ffffff;
+    display: grid;
+    padding-left: 60px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 50px 150px 150px;
+    align-items: end;
+    grid-template-areas:
+        'headerH5 headerImg'
+        'headerH2 headerImg'
+        'headerP headerImg' 
+        'headerForm headerImg'
+    ;
+}
+
+.header-h5 {
+    grid-area: 
+        headerH5;
+}
+
+.header-h2 {
+    grid-area: headerH2;
+}
+
+.header-p {
+    grid-area: headerP;
+}
+
+.header-img {
+    grid-area: headerImg;
+}
+
+.header-form {
+    grid-area: headerForm;
+}
+
+.container-section {
+    color: #000000;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);  
+    justify-content: space-around; 
+}
+.section-a {
+    box-shadow: 0px 0px 15px #d9d9d9;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    padding: 45px;
+}
+
+.section-div {
+    display: inline-block;
+    padding: 7.5%;
+    background-color: #0071f8;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 25px;
+}
+main {
+    background-color: aquamarine;
+    border: 2px solid black;
 }
