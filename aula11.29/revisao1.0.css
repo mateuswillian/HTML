@@ -101,6 +101,7 @@ h1 {
 }
 
 .um {
+    color: #ffffff;
     padding: 0px 30px;
     grid-area: um;
     background-color: blueviolet;

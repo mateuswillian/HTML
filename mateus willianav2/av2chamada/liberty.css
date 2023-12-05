@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 600px 250px; 
+}
+
+.div-img {
+    height: 700px;
+    background-image: url(./image/banner-bg.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.container-nav1 {
+    width: 1250px;
+    height: 90px;
+    background-color: #ffffff;
+    margin-left:35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+img{
+    padding:15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 100px 100px 120px 100px 100px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-header{
+    margin: 10%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section-apresentacao {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#font-h1 {
+    font-size: 40px;
+
+}
+
+.div-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-link {
+    color: #ffffff;
+    border: 2px solid violet;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+/* css da main*/
+
+.container-main {
+    height: 900px;
+    margin-top: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+span{
+    color:darkslateblue;
+}
+
+.section-main{
+    margin: 30px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 155px 150px 150px ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-main a {
+    box-shadow: 0px 0px 5px #d9d9d9;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.section-div-img {
+    display: inline-block;
+    padding: 7,5%;
+    line-height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-colecao{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+
+
