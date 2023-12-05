@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: black;
+    background-image: url(./image/dark-bg.jpg);
     display: grid;
     grid-template-rows: 600px 250px; 
 }
@@ -31,8 +31,16 @@
     align-items: center;
     
 }
-img{
-    padding:15px;
+
+li a:hover {
+    padding: 8px;
+    background-color:#5B63B7;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.img-logo{
+    padding-left: 35px;
 }
 
 li a {
@@ -78,7 +86,7 @@ ul{
 
 .div-link {
     color: #ffffff;
-    border: 2px solid violet;
+    border: 2px solid #5B63B7;
     width: 150px;
     text-align: center;
     text-decoration: none;
@@ -86,6 +94,10 @@ ul{
     font-size: 18px;
     font-weight: 500;
     padding: 15px 0px;
+}
+
+div a:hover {
+    background-color: #5B63B7;
 }
 
 /* css da main*/
@@ -102,7 +114,7 @@ h2 {
 }
 
 span{
-    color:darkslateblue;
+    color:#5B63B7;
 }
 
 .section-main{
@@ -115,6 +127,7 @@ span{
 }
 
 .section-main a {
+    background-color: #363636;
     box-shadow: 0px 0px 5px #d9d9d9;
     border-radius: 20px;
     text-align: center;
@@ -125,8 +138,8 @@ span{
 
 .section-div-img {
     display: inline-block;
-    padding: 7,5%;
-    line-height: 40px;
+    padding: 20%;
+    line-height: 30px;
     background-color: #ffffff;
     border-radius: 50%;
     width: 70px;
@@ -135,10 +148,60 @@ span{
     margin-bottom: 25px;
 }
 .section-colecao{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    box-sizing: content-box;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.div-colecao {
+    width: 380px;
+    height: 170px;
+    padding: 0px 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #363636;
+    display: grid;
+    justify-content:space-between;
+    grid-template-areas:
+        'divh3 divh3 '
+        'p1 p2'
+        'h3 blockc'
+    ;
+}
 
+.div-h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px;
+    grid-area: divh3;
+    border-bottom: 2px solid #4F4F4F;
+}
+
+.div-p1 {
+    grid-area: p1;
+    margin-top: 10px;
+}
+
+.div-p2 {
+    grid-area: p2;
+    margin-top: 10px;
+}
+
+h3 {
+    grid-area: h3;
+    margin-bottom: 30px;
+}
+
+.blockc {
+    grid-area: blockc;
+}
+
+.div-explore {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    margin-left: 60px; 
+    background-color:#5B63B7;
+    border-radius: 20px;
+}
