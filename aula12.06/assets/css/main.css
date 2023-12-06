@@ -1,0 +1,15 @@
+.largura {
+    max-width: 500px;
+    height: 300px;
+    border: 2px dotted black;
+}
+
+.row {
+    height: 100%;
+}
+
+.col-6 {
+    border: 2px dashed red;
+    height: 25px;
+    margin: 0px;
+}
