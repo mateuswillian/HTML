@@ -1,3 +1,4 @@
+/* index.html
 .largura {
     max-width: 500px;
     height: 300px;
@@ -8,8 +9,46 @@
     height: 100%;
 }
 
-.col-6 {
+.col-6, .col-3  {
     border: 2px dashed red;
     height: 25px;
     margin: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+.bi.bi-bell, .bi-arrow-through-heart {
+    font-size: 40px;
+    color: green;
+    margin: 2px;
+}
+*/
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.main {
+    height: 560px;
+}
+
+.container-fluid {
+    width: 100;
+}
+
+footer {
+    background-color: #1c1c1c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.largura {
+    max-width: 600px;
+    margin: 0px auto;
 }
