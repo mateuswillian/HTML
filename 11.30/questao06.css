@@ -28,7 +28,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-right: 250px;
+    padding-right: 20px;
 }
 
 .section-02{
@@ -59,9 +59,13 @@ footer{
     gap: 10px;
 }
 
-hr{ height: 50px; margin-right: 10px;}
+hr{ height: 50px; 
+    margin-right: 10px;
+}
 
-strong{ color: #F9F871;}
+strong{ 
+    color: #F9F871;
+}
 
 .bg__img{
     width: 245px;
