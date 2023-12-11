@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {  
+    width: 100vw;
+    height: 100vh;
+    color: #ffffff;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30% 40%;
+    display: grid;
+    grid-template-areas:
+        'pos1 pos1 img1 pos2'
+        'pos3 pos4 pos5 pos6'
+        'img2 img2 pos7 pos7'
+    ;
+}
+
+.nv-bgcolor1 {
+    grid-area: pos1;
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.img1 {
+    grid-area: img1;
+    width: 342px;
+    height: 200px;
+}
+
+.nv-bgcolor2 {
+    grid-area: pos2;
+    background-color: #FFC75F;
+}
+
+.nv-bgcolor3 {
+    grid-area: pos3;
+    background-color: #FFC75F;
+    text-align: center;
+    text-align: center;
+}
+
+.nv-bgcolor4 {
+    grid-area: pos4;
+    background-color: #FF9671;
+    text-align: center;
+}
+
+.nv-bgcolor5 {
+    grid-area: pos5;
+    background-color: black;
+    text-align: center;
+}
+
+.nv-bgcolor6 {
+    grid-area: pos6;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+}
+
+.img2 {
+    width: 683px;
+    height: 262px;
+    grid-area: img2;
+}
+
+.nv-bgcolor7 {
+    grid-area: pos7;
+    background-color: #FF9671;
+    text-align: center;
+}
+
+.h1 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.bgcolor-h4 {
+    color: #FFC75F;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.h1-skills {
+    margin: 30px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+p{
+    margin-left: 10px;
+    color: black;
+}
+
+.inter-h1 {
+    margin-top: 65px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
