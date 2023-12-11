@@ -9,7 +9,6 @@
 body{
     width: 100vw;
     height: 100vh;
-
     display: flex;
     align-items: center;
 }
@@ -47,8 +46,6 @@ footer{
 .section-03{
     height: 100%;
     margin-top: 60px;
-    padding-left: 80px;
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 40px;
