@@ -12,7 +12,7 @@ body {
     width: 100vw; 
 }
 
-.yellow { 
+.bg-yellow { 
     background-color: #febb0d; 
     width: 100vw; 
     height: 10px;
@@ -34,7 +34,7 @@ body {
     height: calc(50vh - 10px); 
 }
 
-.box-text { 
+.textos { 
     padding: 30px; 
     display: flex; 
     flex-direction: column; 
@@ -56,11 +56,11 @@ button {
     border-radius: 2px; 
 }
 
-.box-text#one { 
+.textos#um { 
     width: 40vw; 
 }
 
-.box-text#two { 
+.textos#dois { 
     width: 60vw;
 }
 
