@@ -198,10 +198,12 @@ h3 {
 }
 
 .div-explore {
-    width: 70%;
-    height: 30px;
-    padding: 5px;
-    margin-left: 60px; 
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 150px  0px 0px 70px;
     background-color:#5B63B7;
     border-radius: 20px;
+    border-bottom: 2px solid white;
 }
